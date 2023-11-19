@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["hello-world"]
+members = ["hello-world", "hello-ratatui"]
 
 [workspace.dependencies]
 ratatui = { version = "0.24.0", features = ["all-widgets"] }
